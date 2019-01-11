@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+body{
+	background: rgba(0,0,0,0.9);
+	padding-top: 3%;
+	font-family: Helvetica, serif;
+	font-size: 16px;
+}
+
+.center{
+	margin: auto;
+	max-width: 800px;
+	width: 70%;
+}
+
+.container{
+	background: #C70039;
+	border-top: 20px solid #900C3F;
+	color: #fff;
+	padding: 50px 0;
+	width: 70%;
+	margin-left: 15%; 
+}
+
+.container .form{
+	color: #212121;
+	text-align: center;
+}
+
+.container .form input[type=text]{
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	border: none;
+}
+
+.container .form input[type=text].error{
+	border: 4px solid #d32f2f;
+	color: red;
+	background: #FDEBD0;
+}
+
+.container .form .button{
+	background: #C70039;
+	border: 1px solid #C70039;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+	margin-left: 1%;
+	box-shadow: 0 0 10px #000;
+}
+
+.container .form .button:hover{
+
+	border: 1px solid #900C3F;
+	background:green;
+	box-shadow: 0 0 10px #000;
+	-webkit-transition: background 0.1s, border-radius 0.1s, box-shadow 0.1s;
+	transition: background 0.s, border-radius 0.1s, box-shadow 0.1s;
+	cursor: pointer;
+}
+
+
+
+/* tareas */
+
+.homeworks{
+	margin: auto;
+}
+
+.homeworks .box{
+	float: left;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius: 5px;
+	max-height: 400px;
+	width: 33%;
+	height: 400px;
+	margin: auto;
+	overflow: auto;
+}
+
+.homeworks .bloqueA{
+	border-left: 5px solid #C70039;
+	border-bottom: 5px solid #C70039;
+	width: 30%;
+	margin-left: 15%;
+	float: left;
+	background: none;
+	overflow: auto;
+	height: 240px;
+}
+
+.homeworks .cajaMedio{
+	width: 10%;
+	float: left;
+	background: #C70039;
+	overflow: auto;
+	height: 240px;
+}
+
+.homeworks .bloqueB{
+	border-right: 5px solid #C70039;
+	border-bottom: 5px solid #C70039;
+	width: 30%;
+	margin-right: 15%;
+	float: right;
+	height: 240px;
+	background: none;
+	overflow: auto;
+}
+
+
+
+.btns{
+	list-style: none;
+}
+
+.btns li{
+	display: block;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.btns button{
+	width: 90%;
+	padding: 10px;
+	background: #C70039;
+	border: none;
+	color: #fff;
+	box-shadow: 0 0 5px #000;
+	-webkit-transition: background 0.1s, box-shadow 0.1s;
+	transition: background 0.1s, box-shadow 0.1s;
+}
+
+.btns button:hover{
+	background: green;
+	color: #fff;
+	box-shadow: 0 0 10px #000;
+	cursor: pointer;
+}
+
+.homeworks .list{
+	margin-left: 3%; 
+	list-style: none;
+	margin-top: 10px;
+}
+
+.homeworks .list li{
+	width: 95%;
+	border-bottom: 1px solid #C70039;
+	color: #fff;
+	display: block;
+	padding: 5px 0;
+	-webkit-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+
+.homeworks .list li:hover{
+	background: #C70039;
+	cursor: pointer;
+}
+
+.current{
+	background:green;
+}
+
+input[type=radio]{
+	cursor: pointer;
+	margin-left: 3%;
+}
+
+.bloqueA label{
+	color: #fff;
+	width: 120px;
+	height: 50px;
+	padding: 10px;
+	background: #C70039;
+	font-size: 19px;
+	font-weight: bold;
+}
+.bloqueB label{
+	color: #fff;
+	width: 120px;
+	height: 50px;
+	padding: 10px;
+	background: #C70039;
+	font-size: 20px;
+	font-weight: bold;
+}

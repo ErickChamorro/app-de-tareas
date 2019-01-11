@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>App de tareas - Erick Chamorro</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+		
+	<div class="container">
+		<div class="center">
+			<form class="form" id="form">
+				<input type="text" id="tareaInput" placeholder="Agrega una tarea">
+				<br>
+				<br>
+				<input type="radio" name="rad" value="a" id="alistaA">&nbsp;&nbsp;<label for="alistaA" style="cursor: pointer;">Agregar a lista A</label>
+				<input type="radio" name="rad" value="b" id="alistaB">&nbsp;&nbsp;<label for="alistaB" style="cursor: pointer;">Agregar a lista B</label>	
+				<br>
+				<br>
+				<br>
+				<input type="button" id="btn-agregar" class="button" value="Agregar una tarea">
+
+			</form>
+		</div>
+	</div>
+	<div class="homeworks">
+			<div class="bloqueA">
+				<label>Lista A</label>
+				<ul class="list" id="listA">
+					<li>Tarea 1</li>
+				</ul>
+		</div>
+
+			<div class="cajaMedio">
+				<ul class="btns" id="list2">
+					<li><button id="toLeft"><<<<<</button></li>
+					<li><button id="toRight">>>>>></button></li>
+					<li><button id="del">Eliminar</button></li>
+					<li><button id="delAll">Eliminar todo</button></li>
+				</ul>
+			</div>
+
+			<div class="bloqueB">
+				<label>Lista B</label>
+				<ul class="list" id="listB">
+					<li>Tarea 1</li>
+				</ul>
+			</div>
+	</div>
+
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
